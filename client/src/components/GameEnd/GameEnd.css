@@ -1,0 +1,139 @@
+.game-over-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.game-over {
+    animation: pulsate 1s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #89216B,
+              0 0 0.8rem #89216B,
+              0 0 2.8rem #89216B,
+              inset 0 0 1.3rem #89216B; 
+    width: 75%;
+    height: 75vh;
+  }
+
+@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #89216B,
+        0 0 80px #89216B,
+        0 0 90px #89216B,
+        0 0 100px #89216B,
+        0 0 150px #89216B;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #89216B,
+      0 0 45px #89216B,
+      0 0 55px #89216B,
+      0 0 70px #89216B,
+      0 0 80px #89216B;
+  
+  }
+}
+
+.end-host {
+  position: absolute;
+  bottom: 10vh;
+  left: 15vw;
+  width: 450px;
+}
+
+.end-speech-bubble {
+  position: absolute;
+  bottom: 63vh;
+  left: 27vw;
+  width: 400px;
+}
+
+.alien {
+  margin: 10rem;
+  position: absolute;
+  right: 20vw;
+  bottom: 7vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .end-host{
+    width: 200px;
+    bottom: 6vh;
+    left: 17vw;
+  }
+
+.end-speech-bubble {
+  bottom: 52vh;
+  left: 22vw;
+}
+
+.alien {
+    margin: 0;
+    right: 18vw;
+    bottom: 3vh;
+  }
+
+  #lottie {
+    width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .end-host {
+    width: 200px;
+  }
+
+  .end-speech-bubble {
+    width: 250px;
+    bottom: 50vh;
+  }
+
+  .alien {
+    margin: 0;
+  }
+  
+
+  #lottie {
+    width: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  .end-host {
+    width:200px;
+  }
+
+  .end-speech-bubble {
+    width: 250px;
+    bottom: 52vh;
+    left: 63vh;
+  }
+
+  .alien {
+    margin: 0;
+  }
+
+  #lottie {
+    width: 250px !important;
+  }
+
+
+}

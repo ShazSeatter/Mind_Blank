@@ -1,0 +1,12 @@
+.loading-heading {
+    font-size: 4rem;
+}
+
+.loading-text {
+    font-size: 6rem;
+}
+
+.loading-div {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

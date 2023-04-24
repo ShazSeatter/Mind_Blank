@@ -1,0 +1,99 @@
+.intro-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./background.jpeg");
+    background-size:cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.host {
+    position: absolute;
+    bottom: 5rem;
+    right: 37vw;
+}
+
+.speech-bubble-container {
+    position: absolute;
+    width: 20rem;
+    left: 40vw;
+    bottom: 50vh;
+}
+
+.speech-bubble {
+    width: 450px;
+}
+
+.intro-button {
+    width: 300px;
+    position: absolute;
+    bottom: 7rem;
+    left: 35vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .host {
+        width: 200px;
+        bottom: 10px;
+    }
+
+    .speech-bubble-container {
+        bottom: 45vh;
+    }
+
+    .intro-button {
+        width: 10rem;
+        bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .host {
+        width: 200px;
+        bottom: 10px;
+    }
+
+    .speech-bubble-container {
+        bottom: 45vh;
+    }
+
+    .intro-button {
+        width: 10rem;
+        bottom: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .host {
+        width: 200px;
+        bottom: 10vh;
+    }
+
+    .speech-bubble-container {
+        bottom: 45vh;
+        left: 34vw;
+    }
+
+    .intro-button {
+        width: 10rem;
+        bottom: 5rem;
+        left: 13rem;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .host {
+        width: 300px;
+        bottom: 2vh;
+    }
+
+    .speech-bubble-container {
+        bottom: 55vh;
+        left: 34vw;
+    }
+
+}
