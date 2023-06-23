@@ -124,7 +124,7 @@ export function GameMenu({ setStartGame, setCategory, setDifficulty }) {
         <div hidden={hiddenDifficulty}>{difficultyElements}</div>
       </div>
       <motion.button
-        className="start-quiz-btn btn-size"
+        className="start-quiz-btn btn-size margin-bottom"
         onClick={handleStartGame}
         variants={startButtonVariants}
       >

@@ -55,14 +55,14 @@
 .end-host {
   position: absolute;
   bottom: 10vh;
-  left: 15vw;
+  left: 13vw;
   width: 450px;
 }
 
 .end-speech-bubble {
   position: absolute;
-  bottom: 63vh;
-  left: 27vw;
+  bottom: 10vh;
+  left: 10vw;
   width: 400px;
 }
 
@@ -124,7 +124,7 @@
   .end-speech-bubble {
     width: 250px;
     bottom: 52vh;
-    left: 63vh;
+    left: 45vh;
   }
 
   .alien {
