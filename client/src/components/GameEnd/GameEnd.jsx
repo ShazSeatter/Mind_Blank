@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { winScore } from "../../constants";
+
+
 import hostCrayons from "./host_crayons.png";
 import hostTrophy from "./host_trophy.png";
 import speechBubbleLose1 from "./LoseSpeech1.png";

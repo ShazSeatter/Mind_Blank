@@ -11,7 +11,7 @@ const createRouter = require('./helpers/create_router.js');
 
 MongoClient.connect('mongodb://localhost:27017', { useUnifiedTopology: true })
     .then((client) => {
-        const db = client.db('game');
+        const db = client.db('game_app');
         const highscoreCollection = db.collection('highscores');
         const highscoreRouter = createRouter(highscoreCollection);
         app.use('/api/highscores', highscoreRouter);

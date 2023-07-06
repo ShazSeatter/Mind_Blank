@@ -48,9 +48,19 @@ export default function GameContainer() {
   }
 
   if (gameEnded && score > highestScore) {
-    setHighscores([...highscores, score]);
+    setHighscores([...highscores, {highscore: score}]);
     postHighscores({ highscore: score });
   }
+
+  // if (gameEnded && score > highestScore) {
+  //   const updatedHighscores = [...highscores, { highscore: score }];
+  //   setHighscores(updatedHighscores);
+  //   postHighscores({ highscores: updatedHighscores });
+  // }
+
+  console.log("highscores", eachHighScore);
+
+  console.log("highscores", highscores);
 
   if (!data.length) return <Loading />;
 
